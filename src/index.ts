@@ -1,3 +1,6 @@
+//We are doing this so that we can import it as import BadRequestError from @srticketingapp/common
+// else we'll have to mention @srticketingapp/common/errors/badRequestError;
+
 export * from './errors/badRequestError';
 export * from './errors/customError';
 export * from './errors/database-conn-error';
