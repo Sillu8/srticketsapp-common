@@ -14,3 +14,8 @@ export * from './middlewares/requireAuth';
 export * from './middlewares/validateRequest';
 
 
+export * from './events/base-listener';
+export * from './events/base-publisher';
+export * from './events/subjects';
+export * from './events/tickets-event/ticket-created-event';
+export * from './events/tickets-event/ticket-updated-event';
